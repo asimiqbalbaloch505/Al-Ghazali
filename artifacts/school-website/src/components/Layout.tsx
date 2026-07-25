@@ -48,7 +48,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </a>
           </div>
           <div className="flex items-center gap-4">
-            <a href="#" className="hover:text-secondary transition-colors"><FaFacebook className="w-4 h-4" /></a>
+            <a href="https://www.facebook.com/p/AlGhazali-Public-School-College-Dhakki-DIKhan-61572596267387/" target="_blank" rel="noreferrer" className="hover:text-secondary transition-colors"><FaFacebook className="w-4 h-4" /></a>
             <a href="#" className="hover:text-secondary transition-colors"><FaInstagram className="w-4 h-4" /></a>
             <a href="#" className="hover:text-secondary transition-colors"><FaTiktok className="w-4 h-4" /></a>
             <a href="#" className="hover:text-secondary transition-colors"><FaYoutube className="w-4 h-4" /></a>
@@ -217,7 +217,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-secondary"></span>
               </h3>
               <div className="flex gap-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-secondary transition-colors">
+                <a href="https://www.facebook.com/p/AlGhazali-Public-School-College-Dhakki-DIKhan-61572596267387/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-secondary transition-colors">
                   <FaFacebook className="w-5 h-5" />
                 </a>
                 <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-secondary transition-colors">
