@@ -7,7 +7,7 @@ export default function About() {
     <div className="w-full bg-background pb-20">
       {/* Page Header */}
       <div className="bg-primary py-20 px-4 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/assembly1.jpg')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('/images/school-img5.png')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
         <div className="max-w-7xl mx-auto relative z-10 text-center text-white">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4">About Us</h1>
           <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
@@ -35,7 +35,7 @@ export default function About() {
                 Established with a vision to provide accessible, high-quality education to the Chah Malwana and Dera Ismail Khan region, AlGhazali Public School & College has been a beacon of learning for 25 years.
               </p>
               <p>
-                From our humble beginnings, we have grown into a comprehensive educational institution serving students from Nursery up to Higher Secondary levels (FA/FSc/ICS). Our enduring commitment to our motto — "إياك نعبد وإياك نستعين" — guides our daily efforts to nurture not just minds, but souls.
+                From our humble beginnings, we have grown into a comprehensive educational institution serving students from Nursery up to Higher Secondary levels (FA/FSc). Our enduring commitment to our motto — "إياك نعبد وإياك نستعين" — guides our daily efforts to nurture not just minds, but souls.
               </p>
             </div>
           </motion.div>
@@ -45,7 +45,7 @@ export default function About() {
             viewport={{ once: true }}
             className="rounded-2xl overflow-hidden shadow-2xl relative h-[400px]"
           >
-            <img src="/images/students.jpg" alt="Students assembly" className="w-full h-full object-cover" />
+            <img src="/images/school-img6.png" alt="Students assembly" className="w-full h-full object-cover" />
           </motion.div>
         </section>
 
@@ -57,7 +57,7 @@ export default function About() {
             viewport={{ once: true }}
             className="order-2 lg:order-1 rounded-2xl overflow-hidden shadow-2xl relative h-[400px]"
           >
-            <img src="/images/teachers.jpg" alt="Teachers and staff" className="w-full h-full object-cover" />
+            <img src="/images/school-img8.png" alt="Teachers and staff" className="w-full h-full object-cover" />
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
@@ -88,8 +88,8 @@ export default function About() {
             </div>
             <h2 className="font-serif text-3xl md:text-4xl text-primary font-bold">Our Leadership</h2>
             
-            <div className="w-24 h-24 bg-primary text-white rounded-full flex items-center justify-center text-3xl font-bold mx-auto mt-8 mb-4 shadow-lg">
-              AR
+            <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-secondary mx-auto mt-8 mb-4 shadow-lg">
+              <img src="/images/principal.png" alt="Principal Abdul Rauf" className="w-full h-full object-cover object-top" />
             </div>
             <h3 className="text-2xl font-bold text-primary">Abdul Rauf</h3>
             <p className="text-secondary font-medium uppercase tracking-wider text-sm">Principal & Owner</p>

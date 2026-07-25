@@ -78,14 +78,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-1 lg:gap-6">
+          <nav className="hidden md:flex items-center gap-1 xl:gap-5">
             {ROUTES.map((route) => {
               const isActive = location === route.path;
               return (
                 <Link
                   key={route.path}
                   href={route.path}
-                  className={`text-sm font-semibold tracking-wide transition-colors hover:text-secondary relative py-2 ${
+                  className={`text-xs xl:text-sm font-semibold tracking-wide transition-colors hover:text-secondary relative py-2 px-1 xl:px-0 whitespace-nowrap ${
                     isActive ? 'text-secondary' : 'text-primary/90'
                   }`}
                 >
@@ -105,7 +105,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
           {/* Mobile Menu Toggle */}
           <button
-            className="lg:hidden p-2 text-primary hover:text-secondary transition-colors"
+            className="md:hidden p-2 text-primary hover:text-secondary transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -120,7 +120,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="lg:hidden fixed top-[110px] sm:top-[120px] left-0 right-0 bg-background border-b border-border shadow-lg z-40 max-h-[calc(100vh-120px)] overflow-y-auto"
+            className="md:hidden fixed top-[110px] sm:top-[120px] left-0 right-0 bg-background border-b border-border shadow-lg z-40 max-h-[calc(100vh-120px)] overflow-y-auto"
           >
             <nav className="flex flex-col p-4">
               {ROUTES.map((route) => {

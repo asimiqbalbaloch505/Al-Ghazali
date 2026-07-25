@@ -6,7 +6,7 @@ import HeroCarousel from '@/components/HeroCarousel';
 
 const STATS = [
   { icon: Award, label: 'Years of Excellence', value: '25+' },
-  { icon: GraduationCap, label: 'Educational Levels', value: 'Nursery to ICS' },
+  { icon: GraduationCap, label: 'Educational Levels', value: 'Nursery to FSc' },
   { icon: Shield, label: 'Girls Campus', value: '100% Privacy' },
   { icon: Bus, label: 'Safe Transport', value: 'Daily Routes' },
   { icon: BookOpen, label: 'Top Board Result', value: '91.5%' },
@@ -17,7 +17,7 @@ const DISCIPLINES = [
   { title: 'Primary Wing', desc: 'Building strong foundations in core subjects with an emphasis on moral character (1st to 5th Grade).', color: 'bg-indigo-50 text-indigo-900', borderColor: 'border-indigo-200' },
   { title: 'Middle Wing', desc: 'Developing critical thinking and analytical skills to prepare for higher studies (6th to 8th Grade).', color: 'bg-sky-50 text-sky-900', borderColor: 'border-sky-200' },
   { title: 'Secondary / Matric', desc: 'Rigorous academic preparation in Science & Arts streams for outstanding board results (9th & 10th).', color: 'bg-slate-50 text-slate-900', borderColor: 'border-slate-200' },
-  { title: 'Higher Secondary', desc: 'College-level FA, FSc (Pre-Med/Engg) & ICS, preparing students for university success.', color: 'bg-blue-50 text-blue-900', borderColor: 'border-blue-200' },
+  { title: 'Higher Secondary', desc: 'College-level FA & FSc (Pre-Medical / Pre-Engineering), preparing students for university and professional success.', color: 'bg-blue-50 text-blue-900', borderColor: 'border-blue-200' },
 ];
 
 export default function Home() {
@@ -55,14 +55,14 @@ export default function Home() {
             <div className="absolute -inset-4 bg-secondary/10 rounded-2xl transform rotate-3 z-0" />
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl border-8 border-white">
               <img 
-                src="/images/student-speech.jpg" 
-                alt="Student giving speech" 
-                className="w-full h-auto aspect-[4/3] object-cover"
+                src="/images/principal.png" 
+                alt="Principal Abdul Rauf" 
+                className="w-full h-auto aspect-[3/4] object-cover object-top"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-xl shadow-xl z-20 max-w-[240px]">
               <div className="font-serif text-4xl text-secondary mb-2">"</div>
-              <p className="text-sm font-medium italic mb-2">Education is not preparation for life; education is life itself.</p>
+              <p className="text-sm font-medium italic mb-2">Education builds not just minds, but the moral character of our nation.</p>
             </div>
           </motion.div>
 
@@ -86,8 +86,8 @@ export default function Home() {
             </div>
             
             <div className="flex items-center gap-4 border-t border-border pt-6">
-              <div className="w-14 h-14 bg-slate-200 rounded-full flex items-center justify-center text-primary font-bold text-xl">
-                AR
+              <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-secondary shrink-0">
+                <img src="/images/principal.png" alt="Abdul Rauf" className="w-full h-full object-cover object-top" />
               </div>
               <div>
                 <h4 className="font-bold text-primary text-lg">Abdul Rauf</h4>
@@ -143,7 +143,7 @@ export default function Home() {
       {/* Vision & Mission Preview */}
       <section className="py-20 md:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-primary rounded-3xl overflow-hidden shadow-2xl relative">
-          <div className="absolute inset-0 bg-[url('/images/assembly1.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
+          <div className="absolute inset-0 bg-[url('/images/assembly-outdoor.png')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/40"></div>
           
           <div className="relative z-10 p-10 md:p-16 lg:p-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -169,7 +169,7 @@ export default function Home() {
             
             <div className="hidden lg:block relative">
               <div className="w-full h-80 rounded-2xl overflow-hidden border-4 border-white/20">
-                <img src="/images/teachers.jpg" alt="Teachers assembly" className="w-full h-full object-cover" />
+                <img src="/images/school-img9.png" alt="School campus" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>

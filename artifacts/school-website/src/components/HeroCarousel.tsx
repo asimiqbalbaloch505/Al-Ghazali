@@ -4,23 +4,29 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const SLIDES = [
   {
-    image: '/images/hero-school.png',
+    image: '/images/assembly-outdoor.png',
     title: 'Empowering Students With Quality & Moral Education',
     subtitle: '25 Years of Excellence in Dera Ismail Khan',
     position: 'center'
   },
   {
-    image: '/images/assembly1.jpg',
+    image: '/images/collage1.png',
     title: 'Building Strong Character & Academic Distinction',
     subtitle: 'Separate Campuses · Qualified Staff · Safe Transport',
-    position: 'bottom'
+    position: 'center'
   },
   {
-    image: '/images/students.jpg',
+    image: '/images/school-img5.png',
     title: '25 Years of Educational Excellence in DIKhan',
-    subtitle: 'Nursery to FA / FSc / ICS — We Shape Futures',
+    subtitle: 'Nursery to FA / FSc — We Shape Futures',
     position: 'center'
-  }
+  },
+  {
+    image: '/images/school-img7.png',
+    title: 'A Legacy of Academic Excellence',
+    subtitle: 'Top Board Result 91.5% · Dedicated Faculty · Safe Environment',
+    position: 'center'
+  },
 ];
 
 export default function HeroCarousel() {

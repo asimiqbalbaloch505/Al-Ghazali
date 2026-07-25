@@ -36,8 +36,8 @@ const SECTIONS = [
     id: "higher",
     icon: GraduationCap,
     title: "Higher Secondary / College",
-    grades: "FA, FSc & ICS (11th & 12th)",
-    content: "The College section prepares students for university admissions and professional careers. We offer specialized streams:\n\n• FSc Pre-Medical: For aspiring healthcare professionals.\n• FSc Pre-Engineering: For future engineers and architects.\n• ICS: Focusing on Computer Science and modern technology.\n• FA: A strong foundation in Arts and Humanities."
+    grades: "FA & FSc (11th & 12th)",
+    content: "The College section prepares students for university admissions and professional careers. We offer specialized streams:\n\n• FSc Pre-Medical: For aspiring healthcare professionals.\n• FSc Pre-Engineering: For future engineers and architects.\n• FA: A strong foundation in Arts and Humanities."
   }
 ];
 
@@ -46,7 +46,7 @@ export default function Academics() {
     <div className="w-full bg-background pb-20">
       {/* Page Header */}
       <div className="bg-primary py-20 px-4 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/students.jpg')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('/images/assembly-outdoor.png')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
         <div className="max-w-7xl mx-auto relative z-10 text-center text-white">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Academics</h1>
           <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
