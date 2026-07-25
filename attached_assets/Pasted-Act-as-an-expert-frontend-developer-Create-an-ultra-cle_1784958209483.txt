@@ -1,0 +1,85 @@
+Act as an expert frontend developer. Create an ultra-clean, minimalist, fast, and modern static portfolio website for "AlGhazali Public School & College Dhakki DIKhan" using React + Vite, Tailwind CSS, and Lucide React Icons (`lucide-react`).
+
+### Critical Rules:
+- NO database, NO Supabase, NO backend, NO admin portal.
+- Static React App built for 100% free Vercel deployment.
+- Mobile-first, fully responsive design with clean, scannable layouts.
+
+### Brand & Color Scheme:
+- Primary: Deep Navy / Royal Blue (`#0F2942` or `#1E3A8A`)
+- Secondary: Muted Sky Blue (`#0284C7`)
+- Backgrounds: Pure White (`#FFFFFF`), Very Light Slate Gray (`#F8FAFC`), Neutral Borders (`#E2E8F0`).
+- Strictly NO neon, glossy, or vibrant colors.
+
+### Header & Social Links:
+- Direct Contact Numbers: `0346 2257660`, `0308 5652708`
+- WhatsApp Direct: `0342 9196601`
+- Social Icons: Facebook, Instagram, TikTok, YouTube.
+
+### Navigation Tabs:
+1. Home
+2. About Us
+3. Vision & Mission
+4. Academics (Nursery to 12th)
+5. Admissions
+6. Transport & Facilities
+7. Contact Us
+
+---
+
+### Key Content & Sections Breakdown:
+
+1. **Home Page**:
+   - **Hero Carousel**: Modern image slider featuring titles like:
+     - "Empowering Students With Quality & Moral Education"
+     - "25 Years of Educational Excellence in DIKhan"
+     - "Building Strong Character & Academic Distinction"
+   - **Highlights Strip**:
+     - 25 Years of Academic Excellence
+     - Nursery to FA / FSc / ICS
+     - Separate Physical Facilities & Female Staff for Girls
+     - Safe Transport Facility (Chashma to Dhalla Mian Wada)
+     - Board Results Highlight (Top Result 91.5%)
+   - **Principal & Owner Section**: Features Principal Abdul Rauf with a welcome message and leadership statement.
+   - **Academic Disciplines Grid**: Nursery, Primary, Middle, Matric, and College Level (FA, FSc Pre-Medical, Pre-Engineering, ICS).
+   - **Vision & Mission Quick Preview Card**.
+
+2. **About Us Page**:
+   - **History & Legacy**: 25 years of serving the Chah Malwana & DIKhan region.
+   - **Separate Campuses & Staff Highlight**:
+     - Dedicated, separate physical facilities for boys and girls.
+     - Girls' campus features 100% highly qualified female faculty and complete privacy for a comfortable learning environment.
+   - **Leadership Team**: Overview of the institution's management under Principal & Owner Abdul Rauf.
+
+3. **Vision & Mission Page**:
+   - In-depth look at character building, moral training, academic discipline, and preparing patriotic, responsible leaders for tomorrow.
+
+4. **Admissions Page (Interactive Process Display)**:
+   - **4-Step Visual Roadmap**:
+     1. **Step 1: Campus Visit** – Visit AlGhazali Public School campus to collect prospectus & admission form.
+     2. **Step 2: Entry Test** – Basic competency assessment in core subjects.
+     3. **Step 3: Interview** – Brief interactive session with candidate & parents.
+     4. **Step 4: Selection Call** – Selected candidates receive confirmation call from administration.
+   - **Inquiry Card**: Direct contact via `0346 2257660` and WhatsApp `0342 9196601`.
+
+5. **Academics Page**:
+   - Comprehensive breakdown:
+     - Junior Wing (Nursery to Prep)
+     - Primary Wing (1st to 5th)
+     - Middle Wing (6th to 8th)
+     - Secondary School / Matric (9th & 10th - Science & Arts)
+     - Higher Secondary / College (11th & 12th - FA, FSc Pre-Medical, FSc Pre-Engineering, ICS).
+
+6. **Transport & Facilities Page**:
+   - Dedicated details on safe school transport running on the **Chashma to Dhalla Mian Wada route** with multiple pick-and-drop stops in between.
+   - School Operating Hours: **7:30 AM – 1:30 PM**.
+
+7. **Contact Us Page**:
+   - Location: Chah Malwana, Tehsil Paharpur, District Dera Ismail Khan.
+   - Direct WhatsApp button (`https://wa.me/923429196601`) and direct click-to-call links.
+
+---
+
+### File Structure:
+- Assets stored in `public/images/` (`logo.png`, `principal-abdul-rauf.jpg`, `hero1.jpg`, etc.).
+- Modular React layout using `src/components/` and `src/pages/`.
