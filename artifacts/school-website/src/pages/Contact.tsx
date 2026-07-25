@@ -116,24 +116,24 @@ export default function Contact() {
           >
             <div className="rounded-3xl overflow-hidden border border-border shadow-xl h-[420px]">
               <iframe
-                title="AlGhazali Public School Location"
-                src="https://maps.google.com/maps?q=Paharpur,+Dera+Ismail+Khan,+KPK,+Pakistan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                title="Al Ghazali Public School & College Dhakki D I Khan"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236.84719839024154!2d71.10763372183557!3d32.201285025270245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392657c073c33629%3A0x488a48181463a094!2sAl%20Ghazali%20Public%20School%20%26%20College%20Dhakki%20D%20I%20Khan!5e0!3m2!1sen!2s!4v1784962027424!5m2!1sen!2s"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerPolicy="strict-origin-when-cross-origin"
               />
             </div>
             <a
-              href="https://maps.google.com/?q=Paharpur,+Dera+Ismail+Khan,+KPK,+Pakistan"
+              href="https://www.google.com/maps/dir//6425%2BF2X+Al+Ghazali+Public+School+%26+College+Dhakki+D+I+Khan,+Khu+Malwanawala/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x392657c073c33629:0x488a48181463a094?sa=X&ved=1t:57443&ictx=111"
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center gap-2 bg-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-primary/90 transition-colors text-sm"
             >
               <MapPin className="w-4 h-4" />
-              Open in Google Maps
+              Get Directions
             </a>
           </motion.div>
 
