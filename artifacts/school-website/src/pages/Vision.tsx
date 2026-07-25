@@ -16,7 +16,7 @@ export default function Vision() {
     <div className="w-full bg-background pb-20">
       {/* Page Header */}
       <div className="bg-primary py-20 px-4 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hero-school.png')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('/images/assembly-outdoor.png')] bg-cover bg-center opacity-25"></div>
         <div className="max-w-7xl mx-auto relative z-10 text-center text-white">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Vision & Mission</h1>
           <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">

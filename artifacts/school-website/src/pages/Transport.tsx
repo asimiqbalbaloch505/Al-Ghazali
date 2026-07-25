@@ -14,7 +14,7 @@ export default function Transport() {
     <div className="w-full bg-background pb-20">
       {/* Page Header */}
       <div className="bg-primary py-20 px-4 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/assembly1.jpg')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1400&q=80')] bg-cover bg-center opacity-25"></div>
         <div className="max-w-7xl mx-auto relative z-10 text-center text-white">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Transport & Facilities</h1>
           <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
@@ -85,6 +85,27 @@ export default function Transport() {
             <p className="text-muted-foreground text-lg">
               Providing the necessary infrastructure to support academic excellence and physical well-being.
             </p>
+          </div>
+
+          {/* Visual photo strip */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+            {[
+              { src: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80', alt: 'Classroom' },
+              { src: '/images/school-img11.png', alt: 'School campus' },
+              { src: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80', alt: 'Library' },
+              { src: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80', alt: 'Sports ground' },
+            ].map((img, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.1 }}
+                className="rounded-2xl overflow-hidden h-40 shadow-md"
+              >
+                <img src={img.src} alt={img.alt} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              </motion.div>
+            ))}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

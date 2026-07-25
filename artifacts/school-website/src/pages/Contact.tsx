@@ -8,7 +8,7 @@ export default function Contact() {
     <div className="w-full bg-background pb-20">
       {/* Page Header */}
       <div className="bg-primary py-20 px-4 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hero-school.png')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('/images/student-speech.png')] bg-cover bg-center opacity-25"></div>
         <div className="max-w-7xl mx-auto relative z-10 text-center text-white">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Contact Us</h1>
           <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
@@ -112,20 +112,29 @@ export default function Contact() {
           <motion.div 
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="h-full min-h-[400px] rounded-3xl overflow-hidden border border-border shadow-xl bg-slate-100 flex items-center justify-center relative"
+            className="flex flex-col gap-4"
           >
-            {/* Embedded Google Map Placeholder */}
-            <div className="absolute inset-0 bg-slate-200 flex flex-col items-center justify-center p-8 text-center">
-              <MapPin className="w-16 h-16 text-primary/40 mb-4" />
-              <h3 className="text-2xl font-bold text-primary mb-2">AlGhazali Public School & College</h3>
-              <p className="text-muted-foreground mb-6">Chah Malwana, Tehsil Paharpur, DIKhan</p>
-              <div className="px-6 py-3 bg-white text-primary font-semibold rounded-full shadow-sm border border-border">
-                Interactive Map Placeholder
-              </div>
-              <p className="text-sm text-muted-foreground mt-4 italic">
-                (In a production environment, embed a Google Maps iframe here using the exact coordinates.)
-              </p>
+            <div className="rounded-3xl overflow-hidden border border-border shadow-xl h-[420px]">
+              <iframe
+                title="AlGhazali Public School Location"
+                src="https://maps.google.com/maps?q=Paharpur,+Dera+Ismail+Khan,+KPK,+Pakistan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
             </div>
+            <a
+              href="https://maps.google.com/?q=Paharpur,+Dera+Ismail+Khan,+KPK,+Pakistan"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center justify-center gap-2 bg-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-primary/90 transition-colors text-sm"
+            >
+              <MapPin className="w-4 h-4" />
+              Open in Google Maps
+            </a>
           </motion.div>
 
         </div>

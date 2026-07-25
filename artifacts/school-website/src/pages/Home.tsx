@@ -13,11 +13,11 @@ const STATS = [
 ];
 
 const DISCIPLINES = [
-  { title: 'Nursery & Prep', desc: 'A nurturing environment for early childhood development focusing on basic skills and socialization.', color: 'bg-blue-50 text-blue-900', borderColor: 'border-blue-200' },
-  { title: 'Primary Wing', desc: 'Building strong foundations in core subjects with an emphasis on moral character (1st to 5th Grade).', color: 'bg-indigo-50 text-indigo-900', borderColor: 'border-indigo-200' },
-  { title: 'Middle Wing', desc: 'Developing critical thinking and analytical skills to prepare for higher studies (6th to 8th Grade).', color: 'bg-sky-50 text-sky-900', borderColor: 'border-sky-200' },
-  { title: 'Secondary / Matric', desc: 'Rigorous academic preparation in Science & Arts streams for outstanding board results (9th & 10th).', color: 'bg-slate-50 text-slate-900', borderColor: 'border-slate-200' },
-  { title: 'Higher Secondary', desc: 'College-level FA & FSc (Pre-Medical / Pre-Engineering), preparing students for university and professional success.', color: 'bg-blue-50 text-blue-900', borderColor: 'border-blue-200' },
+  { title: 'Nursery & Prep', desc: 'A nurturing environment for early childhood development focusing on basic skills and socialization.', img: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80', borderColor: 'border-blue-200' },
+  { title: 'Primary Wing', desc: 'Building strong foundations in core subjects with an emphasis on moral character (1st to 5th Grade).', img: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80', borderColor: 'border-indigo-200' },
+  { title: 'Middle Wing', desc: 'Developing critical thinking and analytical skills to prepare for higher studies (6th to 8th Grade).', img: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=80', borderColor: 'border-sky-200' },
+  { title: 'Secondary / Matric', desc: 'Rigorous academic preparation in Science & Arts streams for outstanding board results (9th & 10th).', img: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=80', borderColor: 'border-slate-200' },
+  { title: 'Higher Secondary', desc: 'College-level FA & FSc (Pre-Medical / Pre-Engineering), preparing students for university and professional success.', img: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&q=80', borderColor: 'border-blue-200' },
 ];
 
 export default function Home() {
@@ -55,9 +55,9 @@ export default function Home() {
             <div className="absolute -inset-4 bg-secondary/10 rounded-2xl transform rotate-3 z-0" />
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl border-8 border-white">
               <img 
-                src="/images/principal.png" 
-                alt="Principal Abdul Rauf" 
-                className="w-full h-auto aspect-[3/4] object-cover object-top"
+                src="/images/assembly-outdoor.png" 
+                alt="School assembly" 
+                className="w-full h-auto aspect-[4/3] object-cover"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-xl shadow-xl z-20 max-w-[240px]">
@@ -119,15 +119,24 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className={`p-8 rounded-2xl bg-white border shadow-sm hover:shadow-xl transition-all group ${disc.borderColor}`}
+                className={`rounded-2xl bg-white border shadow-sm hover:shadow-xl transition-all group overflow-hidden ${disc.borderColor}`}
               >
-                <h4 className="text-xl font-bold text-primary mb-4 flex items-center justify-between">
-                  {disc.title}
-                  <ArrowRight className="w-5 h-5 text-secondary opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
-                </h4>
-                <p className="text-muted-foreground leading-relaxed">
-                  {disc.desc}
-                </p>
+                <div className="h-44 overflow-hidden">
+                  <img
+                    src={disc.img}
+                    alt={disc.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-6">
+                  <h4 className="text-xl font-bold text-primary mb-3 flex items-center justify-between">
+                    {disc.title}
+                    <ArrowRight className="w-5 h-5 text-secondary opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
+                  </h4>
+                  <p className="text-muted-foreground leading-relaxed">
+                    {disc.desc}
+                  </p>
+                </div>
               </motion.div>
             ))}
           </div>
