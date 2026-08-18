@@ -55,7 +55,7 @@ export default function Home() {
             <div className="absolute -inset-4 bg-secondary/10 rounded-2xl transform rotate-3 z-0" />
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl border-8 border-white">
               <img 
-                src="/images/assembly-outdoor.png" 
+                src="/images/assembly_outdoor.png" 
                 alt="School assembly" 
                 className="w-full h-auto aspect-[4/3] object-cover"
               />
