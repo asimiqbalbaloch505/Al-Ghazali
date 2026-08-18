@@ -15,9 +15,9 @@ const STATS = [
 const DISCIPLINES = [
   { title: 'Nursery & Prep', desc: 'A nurturing environment for early childhood development focusing on basic skills and socialization.', img: '/images/nursery_classroom.png', borderColor: 'border-blue-200' },
   { title: 'Primary Wing', desc: 'Building strong foundations in core subjects with an emphasis on moral character (1st to 5th Grade).', img: '/images/primary-wing.png', borderColor: 'border-indigo-200' },
-  { title: 'Middle Wing', desc: 'Developing critical thinking and analytical skills to prepare for higher studies (6th to 8th Grade).', img: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=80', borderColor: 'border-sky-200' },
-  { title: 'Secondary / Matric', desc: 'Rigorous academic preparation in Science & Arts streams for outstanding board results (9th & 10th).', img: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=80', borderColor: 'border-slate-200' },
-  { title: 'Higher Secondary', desc: 'College-level FA & FSc (Pre-Medical / Pre-Engineering), preparing students for university and professional success.', img: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&q=80', borderColor: 'border-blue-200' },
+  { title: 'Middle Wing', desc: 'Developing critical thinking and analytical skills to prepare for higher studies (6th to 8th Grade).', img: '/images/middle-wing.png', borderColor: 'border-sky-200' },
+  { title: 'Secondary / Matric', desc: 'Rigorous academic preparation in Science & Arts streams for outstanding board results (9th & 10th).', img: '/images/matric-section.png', borderColor: 'border-slate-200' },
+  { title: 'Higher Secondary', desc: 'College-level FA & FSc (Pre-Medical / Pre-Engineering), preparing students for university and professional success.', img: '/images/higher-secondary.png', borderColor: 'border-blue-200' },
 ];
 
 export default function Home() {
