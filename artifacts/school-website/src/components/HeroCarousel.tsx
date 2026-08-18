@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const SLIDES = [
   {
-    image: '/images/assembly-outdoor.png',
+    image: '/images/assembly_outdoor.png',
     title: 'Empowering Students With Quality & Moral Education',
     subtitle: '25 Years of Excellence in Dera Ismail Khan',
     position: 'center'
