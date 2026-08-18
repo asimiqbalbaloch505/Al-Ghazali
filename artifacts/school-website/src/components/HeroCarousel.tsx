@@ -10,7 +10,7 @@ const SLIDES = [
     position: 'center'
   },
   {
-    image: '/images/collage1.png',
+    image: '/images/student-speech.png',
     title: 'Building Strong Character & Academic Distinction',
     subtitle: 'Separate Campuses · Qualified Staff · Safe Transport',
     position: 'center'
