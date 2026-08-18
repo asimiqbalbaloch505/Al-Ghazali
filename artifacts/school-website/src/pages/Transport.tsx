@@ -14,7 +14,7 @@ export default function Transport() {
     <div className="w-full bg-background pb-20">
       {/* Page Header */}
       <div className="bg-primary py-20 px-4 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1400&q=80')] bg-cover bg-center opacity-25"></div>
+        <div className="absolute inset-0 bg-[url('/images/transport.png')] bg-cover bg-center opacity-25"></div>
         <div className="max-w-7xl mx-auto relative z-10 text-center text-white">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Transport & Facilities</h1>
           <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
