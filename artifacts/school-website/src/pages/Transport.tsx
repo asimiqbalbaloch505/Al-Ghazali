@@ -90,7 +90,7 @@ export default function Transport() {
           {/* Visual photo strip */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
             {[
-              { src: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80', alt: 'Classroom' },
+              { src: 'images/classroom.png', alt: 'Classroom' },
               { src: '/images/school-img11.png', alt: 'School campus' },
               { src: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80', alt: 'Library' },
               { src: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80', alt: 'Sports ground' },
