@@ -8,7 +8,7 @@ export default function Contact() {
     <div className="w-full bg-background pb-20">
       {/* Page Header */}
       <div className="bg-primary py-20 px-4 relative overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center opacity-40" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1600&q=80')" }}></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-40" style={{ backgroundImage: "url('/images/contactus.png')" }}></div>
         <div className="max-w-7xl mx-auto relative z-10 text-center text-white">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Contact Us</h1>
           <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
