@@ -92,8 +92,8 @@ export default function Transport() {
             {[
               { src: 'images/classroom.png', alt: 'Classroom' },
               { src: '/images/school-img11.png', alt: 'School campus' },
-              { src: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80', alt: 'Library' },
-              { src: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80', alt: 'Sports ground' },
+              { src: '/images/library.png', alt: 'Library' },
+              { src: '/images/sports.png', alt: 'Sports ground' },
             ].map((img, i) => (
               <motion.div
                 key={i}
