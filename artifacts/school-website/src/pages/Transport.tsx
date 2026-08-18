@@ -91,7 +91,7 @@ export default function Transport() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
             {[
               { src: 'images/classroom.png', alt: 'Classroom' },
-              { src: '/images/school-img11.png', alt: 'School campus' },
+              { src: '/images/assembly1.jpg', alt: 'School campus' },
               { src: '/images/library.png', alt: 'Library' },
               { src: '/images/sports.png', alt: 'Sports ground' },
             ].map((img, i) => (
